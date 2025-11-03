@@ -5,7 +5,7 @@ const Product = ({ product }) => {
     const { price_max, price_min, title, image,_id } = product;
     return (
         <div>
-            <div className="card bg-base-100  shadow-sm border border-gray-300 p-4">
+            <div className="card bg-base-100 shadow-sm border border-gray-300 p-4">
                 <figure>
                     <img
                         src={image} />
